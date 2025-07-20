@@ -30,3 +30,19 @@ Enter the element to insert at the end: 4
 Updated array:
 1 2 3 4
 ---------
+arr = []
+n=3
+print(f"Enter {n} elements:")
+for _ in range(n):
+    arr.append(int(input()))
+new_element = int(input("Enter the element to insert at the end: "))
+arr.append(new_element)
+print("Updated array:")
+print(arr)
+Enter 3 elements:
+1
+2
+3
+Enter the element to insert at the end: 4
+Updated array:
+[1, 2, 3, 4]
