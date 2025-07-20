@@ -1,8 +1,9 @@
 # assignment1
+1 insert an element to the end of an array
 #include <stdio.h>
 
 int main() {
-    int arr[100], n, i, newElement;
+    int arr[100], n, i, Element;
     printf("Enter the number of elements: ");
     scanf("%d", &n);
     printf("Enter %d elements:\n", n);
@@ -10,8 +11,8 @@ int main() {
         scanf("%d", &arr[i]);
     }
     printf("Enter the element to insert at the end: ");
-    scanf("%d", &newElement);
-    arr[n] = newElement;
+    scanf("%d", &Element);
+    arr[n] = Element;
     n++;
     printf("Updated array:\n");
     for(i = 0; i < n; i++) {
