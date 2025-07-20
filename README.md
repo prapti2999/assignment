@@ -20,3 +20,12 @@ int main() {
 
     return 0;
 }
+Enter the number of elements: 3
+Enter 3 elements:
+1
+2
+3
+Enter the element to insert at the end: 4
+Updated array:
+1 2 3 4
+---------
